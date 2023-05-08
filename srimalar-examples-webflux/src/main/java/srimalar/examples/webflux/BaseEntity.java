@@ -1,2 +1,4 @@
-package srimalar.examples.webflux;public class BaseEntity {
+package srimalar.examples.webflux;
+
+public abstract class BaseEntity {
 }

@@ -12,6 +12,7 @@ import reactor.core.publisher.Mono;
 import java.util.Optional;
 
 import static org.springframework.http.MediaType.APPLICATION_JSON;
+import static org.springframework.web.reactive.function.BodyInserters.fromObject;
 
 @Component
 public class StudentHandler {
@@ -68,5 +69,14 @@ public class StudentHandler {
         return ServerResponse.status(HttpStatus.OK)
                 .contentType(APPLICATION_JSON)
                 .body(result, Student.class);
+    }
+
+    public Mono<ServerResponse> getById(ServerRequest request) {
+        String personId = request.pathVariable("id");
+        Mono<ServerResponse> notFound = ServerResponse.notFound().build();
+        Mono<Student> personMono = Mono.just(studentService.findStudentById(personId));
+        return personMono
+                .flatMap(person -> ServerResponse.ok().contentType(APPLICATION_JSON).body(personMono, Student.class))
+                .switchIfEmpty(notFound);
     }
 }

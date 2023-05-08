@@ -27,11 +27,14 @@ public class StudentRouter {
                         GET("/students/{id}")
                                 .and(accept(APPLICATION_JSON)), studentHandler::getStudent)
                 .andRoute(
-                        GET("/students")
+                        GET("/student/{id}")
+                                .and(accept(APPLICATION_JSON)), studentHandler::getById)
+                .andRoute(
+                            GET("/students")
                                 .and(accept(APPLICATION_JSON)), studentHandler::listStudents)
                 .andRoute(
                         POST("/students")
-                                .and(accept(APPLICATION_JSON)),studentHandler::addNewStudent)
+                                .and(accept(APPLICATION_JSON)), studentHandler::addNewStudent)
                 .andRoute(
                         PUT("students/{id}")
                                 .and(accept(APPLICATION_JSON)), studentHandler::updateStudent)
