@@ -1,0 +1,30 @@
+server:
+  port: 8060
+spring:
+  application:
+   name: srimalar-examples-oauth
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/data/sample
+    driverClassName: org.h2.Driver
+    username: sa
+    password: password
+
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    properties:
+      hibernate:
+        hbm2ddl: create
+        format_sql: true
+        dialect: org.hibernate.dialect.H2Dialect
+        ddl-auto: create
+  web:
+    resources:
+      static-locations: classpath:static
+
+logging:
+  level:
+    org:
+      springframework:
+        web: INFO
+      hibernate: INFO
