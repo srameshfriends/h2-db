@@ -9,6 +9,8 @@ target/
 *.iml
 *.ipr
 
+.idea
+
 ### Eclipse ###
 .apt_generated
 .classpath
@@ -28,7 +30,7 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-.idea
+.mvn
 srimalar-examples-oauth/.idea
 srimalar-examples-oauth/.mvn
 srimalar-examples-oauth/target
@@ -37,6 +39,9 @@ srimalar-examples-webflux/.idea
 srimalar-examples-webflux/.mvn
 srimalar-examples-webflux/target
 
+srimalar-examples-kafka/.idea
+srimalar-examples-kafka/.mvn
+srimalar-examples-kafka/target
 
 ### VS Code ###
 .vscode/

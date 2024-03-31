@@ -1,5 +1,14 @@
 # Read Me First
 
+```
+C:\tools\kafka_2.13-3.7.0\bin\windows
+
+zookeeper-server-start ../../config/zookeeper.properties
+kafka-server-start ../../config/server.properties
+connect-standalone ../../config/connect-standalone.properties
+
+```
+
 ### Web flux examples
 
 ##### 2023-05-08

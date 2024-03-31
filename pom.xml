@@ -12,6 +12,7 @@
     <modules>
         <module>srimalar-examples-webflux</module>
         <module>srimalar-examples-oauth</module>
+        <module>srimalar-examples-kafka</module>
     </modules>
 
 </project>
