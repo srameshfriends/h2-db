@@ -1,6 +1,7 @@
 package srimalar.examples.webflux;
 
 import org.springframework.http.HttpStatus;
+import srimalar.examples.webflux.model.ErrorObject;
 
 import java.util.ArrayList;
 import java.util.List;

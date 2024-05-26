@@ -1,4 +1,4 @@
-package srimalar.examples.webflux;
+package srimalar.examples.webflux.router;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -6,6 +6,9 @@ import org.springframework.web.reactive.function.server.EntityResponse;
 import org.springframework.web.reactive.function.server.RouterFunction;
 import org.springframework.web.reactive.function.server.RouterFunctions;
 import org.springframework.web.reactive.function.server.ServerResponse;
+import srimalar.examples.webflux.model.Sample;
+import srimalar.examples.webflux.handler.SampleHandler;
+import srimalar.examples.webflux.model.Student;
 
 import static org.springframework.web.reactive.function.server.RequestPredicates.GET;
 

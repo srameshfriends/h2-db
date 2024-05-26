@@ -1,4 +1,4 @@
-package srimalar.examples.webflux;
+package srimalar.examples.webflux.model;
 
 import java.util.UUID;
 

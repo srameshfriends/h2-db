@@ -1,9 +1,11 @@
-package srimalar.examples.webflux;
+package srimalar.examples.webflux.handler;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.server.*;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
+import srimalar.examples.webflux.model.Sample;
+import srimalar.examples.webflux.model.Student;
 
 import java.util.ArrayList;
 import java.util.List;

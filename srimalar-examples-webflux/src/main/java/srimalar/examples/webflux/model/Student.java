@@ -1,4 +1,4 @@
-package srimalar.examples.webflux;
+package srimalar.examples.webflux.model;
 
 public class Student extends BaseEntity {
     private String id;

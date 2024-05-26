@@ -1,4 +1,4 @@
-package srimalar.examples.webflux;
+package srimalar.examples.webflux.handler;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -8,11 +8,12 @@ import org.springframework.web.reactive.function.server.ServerRequest;
 import org.springframework.web.reactive.function.server.ServerResponse;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
+import srimalar.examples.webflux.model.Student;
+import srimalar.examples.webflux.controls.StudentService;
 
 import java.util.Optional;
 
 import static org.springframework.http.MediaType.APPLICATION_JSON;
-import static org.springframework.web.reactive.function.BodyInserters.fromObject;
 
 @Component
 public class StudentHandler {

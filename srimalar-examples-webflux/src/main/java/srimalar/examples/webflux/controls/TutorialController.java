@@ -1,10 +1,11 @@
-package srimalar.examples.webflux;
+package srimalar.examples.webflux.controls;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
+import srimalar.examples.webflux.model.Tutorial;
 
 /*@CrossOrigin(origins = "http://localhost:8081")*/
 @RestController

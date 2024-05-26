@@ -1,14 +1,17 @@
-package srimalar.examples.webflux;
+package srimalar.examples.webflux.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonRootName;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import srimalar.examples.webflux.util.LocalDateDeserializer;
+import srimalar.examples.webflux.util.LocalDateSerializer;
+import srimalar.examples.webflux.util.LocalDateTimeDeserializer;
+import srimalar.examples.webflux.util.LocalDateTimeSerializer;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.util.UUID;
 
 @JsonRootName("sample")
 public class Sample {

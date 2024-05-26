@@ -1,10 +1,10 @@
-package srimalarexamples.srimalarexampleswebflux;
+package srimalar.examples.webflux;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SrimalarExamplesWebfluxApplicationTests {
+class WebFluxApplicationTests {
 
 	@Test
 	void contextLoads() {
