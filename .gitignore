@@ -48,3 +48,7 @@ srimalar-examples-kafka/target
 
 ### Mac OS ###
 .DS_Store
+
+webpack-project
+webpack-project/node_modules
+webpack-project/dist

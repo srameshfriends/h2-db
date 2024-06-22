@@ -5,14 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>srimalar</groupId>
-    <artifactId>srimalar-examples</artifactId>
+    <artifactId>srimalar-sample</artifactId>
     <version>1.0</version>
     <packaging>pom</packaging>
 
     <modules>
-        <module>srimalar-examples-webflux</module>
-        <module>srimalar-examples-oauth</module>
-        <module>srimalar-examples-kafka</module>
+        <module>srimalar-sample-webflux</module>
+        <module>srimalar-sample-oauth</module>
+        <module>srimalar-sample-kafka</module>
     </modules>
 
 </project>
