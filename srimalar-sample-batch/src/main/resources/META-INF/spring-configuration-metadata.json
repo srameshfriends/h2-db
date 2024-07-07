@@ -1,0 +1,24 @@
+{
+  "properties": [
+  {
+    "name": "job.datasource.url",
+    "type": "java.lang.String",
+    "defaultValue": "jdbc:h2:tcp://localhost/~/data/db-batch-job"
+  },
+  {
+    "name": "job.datasource.username",
+    "type": "java.lang.String",
+    "defaultValue": "sa"
+  },
+  {
+    "name": "job.datasource.password",
+    "type": "java.lang.String",
+    "defaultValue": "password"
+  },
+  {
+    "name": "job.datasource.driver",
+    "type": "java.lang.String",
+    "defaultValue": "org.h2.Driver"
+  }
+]
+}

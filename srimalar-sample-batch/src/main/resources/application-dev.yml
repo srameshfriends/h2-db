@@ -1,0 +1,8 @@
+server:
+  port: 7070
+spring:
+  application:
+    name: BATCH_JOB
+logging:
+  level:
+    root: INFO

@@ -10,9 +10,11 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>srimalar-sample-activemq</module>
         <module>srimalar-sample-webflux</module>
         <module>srimalar-sample-oauth</module>
         <module>srimalar-sample-kafka</module>
+		<module>srimalar-sample-batch</module>
     </modules>
 
 </project>

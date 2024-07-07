@@ -31,17 +31,25 @@ build/
 !**/src/test/**/build/
 
 .mvn
-srimalar-examples-oauth/.idea
-srimalar-examples-oauth/.mvn
-srimalar-examples-oauth/target
+srimalar-sample-oauth/.idea
+srimalar-sample-oauth/.mvn
+srimalar-sample-oauth/target
 
-srimalar-examples-webflux/.idea
-srimalar-examples-webflux/.mvn
-srimalar-examples-webflux/target
+srimalar-sample-webflux/.idea
+srimalar-sample-webflux/.mvn
+srimalar-sample-webflux/target
 
-srimalar-examples-kafka/.idea
-srimalar-examples-kafka/.mvn
-srimalar-examples-kafka/target
+srimalar-sample-kafka/.idea
+srimalar-sample-kafka/.mvn
+srimalar-sample-kafka/target
+
+srimalar-sample-kafka/.idea
+srimalar-sample-kafka/.mvn
+srimalar-sample-kafka/target
+
+srimalar-sample-batch/.idea
+srimalar-sample-batch/.mvn
+srimalar-sample-batch/target
 
 ### VS Code ###
 .vscode/
